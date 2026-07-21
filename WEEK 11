@@ -1,0 +1,17 @@
+Applying OOP to My Programming Assignment
+
+After learning about Object-Oriented Programming, I think it will make building my project much easier to manage. Instead of having all my code mixed together, I can organize it into different classes, with each one handling a specific part of the program.
+
+For my StudyTrack project, I plan to create a `Task` class that stores information like the task title, course, due date, and whether it's been completed. I can also include functions that let me mark a task as complete or edit its information. This keeps everything related to a task in one place instead of spreading it throughout the project.
+
+I'll also have a `TaskModel` class that manages all of the tasks and saves them using local storage. Since I'm using the MVC pattern, the view will handle what the user sees, and the controller will connect the user interface with the data.
+
+Using OOP should make my code easier to read and update. If I decide to add new features later, like reminders or different task categories, I can build on the classes I already have instead of rewriting large sections of my project.
+
+Reflection:
+
+I'm using JavaScript for my programming assignment. JavaScript fully supports Object-Oriented Programming, especially with the `class` syntax that makes creating objects and classes much easier. It also supports inheritance, encapsulation, and polymorphism, which are all important parts of OOP.
+
+One thing I found interesting is that JavaScript isn't limited to just one programming style. It's a multi-paradigm language, so it also supports procedural and functional programming. That means developers can choose the approach that works best depending on what they're building.
+
+For my project, I'll mostly use OOP because it makes sense to treat tasks and study sessions as objects. At the same time, I'll probably use JavaScript's built-in functions like `filter()`, `sort()`, and `map()` when working with lists of tasks. I think combining these different programming styles will help me keep my project organized while making the code easier to work with.
