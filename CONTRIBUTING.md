@@ -1,67 +1,66 @@
-External Community
+# Contributing to StudyTrack
 
-For my external contribution, I chose the **freeCodeCamp** GitHub repository because it's a large open-source project that helps people learn programming through interactive lessons and coding challenges.
+Thank you for helping improve StudyTrack.
 
-**Community:** freeCodeCamp
+## Before Starting
 
-**Project Repository:** https://github.com/freeCodeCamp/freeCodeCamp
+1. Search existing issues.
+2. Create or select an issue describing the work.
+3. Comment on the issue when collaboration is needed.
+4. Create a focused branch from the latest `main`.
 
-**Selected Issue:** Issue #49492 – *Show warning to users when they try to source the wrong files*
+Example:
 
-**Issue Link:** https://github.com/freeCodeCamp/freeCodeCamp/issues/49492
+```bash
+git checkout main
+git pull origin main
+git checkout -b feature/issue-12-task-filters
+```
 
-# CONTRIBUTING.md Notes
+## Development Workflow
 
-## Planned Contribution
+1. Install dependencies with `npm install`.
+2. Make one focused change at a time.
+3. Run `npm run check` and `npm test`.
+4. Commit with a descriptive message.
+5. Push the branch.
+6. Open a pull request and link the related issue.
 
-The issue I chose is about improving the warning message that appears when a learner uses the wrong filename, like `style.css` instead of `styles.css`. It's a small change, but it could make a big difference for beginners because they'll get a clearer explanation of what went wrong instead of spending time trying to figure it out on their own.
+## Commit Style
 
-I picked this issue because it seemed like a realistic first contribution to an open-source project. It's something I can understand, it's related to web development, and it helps improve the experience for other people using freeCodeCamp.
+Use an action-oriented title:
 
-## Why This Contribution Matters
+- `Add task status validation`
+- `Fix deadline sorting for overdue tasks`
+- `Test observer notifications`
+- `Document local setup process`
 
-Even though this isn't a huge feature, I think it's still valuable. A lot of new programmers get stuck on small mistakes, and better warning messages can help them solve problems much faster. Small improvements like this can make learning less frustrating, especially for beginners.
+Avoid vague messages such as `update`, `changes`, or `stuff`.
 
-Working on issues like this also shows that open-source projects aren't only about adding new features. Improving existing content and making software easier to use is just as important.
+## Coding Standards
 
-## Project Documentation I Reviewed
+- Use `const` unless reassignment is necessary.
+- Use meaningful names.
+- Keep functions focused.
+- Validate external input.
+- Handle errors rather than silently ignoring them.
+- Add comments for design decisions, not obvious syntax.
+- Keep modules small and reusable.
 
-Before deciding how I would approach the issue, I read through several documents in the repository, including:
+## Pull Request Checklist
 
-* README.md
-* CONTRIBUTING.md
-* Code of Conduct
-* The discussion for Issue #49492
+- [ ] The pull request links an issue.
+- [ ] The change is focused.
+- [ ] Syntax checks pass.
+- [ ] Tests pass.
+- [ ] New behaviour is tested where practical.
+- [ ] Documentation is updated.
+- [ ] No secrets or generated database files are committed.
 
-Reading these helped me understand how contributors are expected to work on the project. I learned that contributors should create their own branch, follow the project's coding standards, write meaningful commit messages, and submit their work through a pull request.
+## Code Review
 
-## Planned Development Process
+Reviewers should check correctness, readability, security, test coverage, accessibility, and whether the change follows the project architecture. Feedback should explain the reason for a requested change and remain respectful.
 
-If I continue with this contribution, my plan is to:
+## Research & Reflection Record
 
-1. Fork the freeCodeCamp repository to my GitHub account.
-2. Clone my fork to my computer.
-3. Create a new branch so I don't work directly on the `main` branch.
-4. Find the files related to Issue #49492.
-5. Update the warning message based on the issue description.
-6. Test the changes to make sure everything works correctly.
-7. Commit my work using clear and descriptive commit messages.
-8. Push my branch to GitHub.
-9. Submit a pull request for the maintainers to review.
-
-## Planned Commit Messages
-
-If I complete the contribution, my commits would be something like:
-
-* `Create feature branch for issue #49492`
-* `Improve warning message for incorrect filenames`
-* `Update related documentation`
-* `Test filename warning changes`
-
-## Progress Log
-
-| Session   | Progress                                                                                                                                                              |
-| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Session 1 | Chose Issue #49492 and explored the freeCodeCamp repository. I read the README, CONTRIBUTING guide, and Code of Conduct to understand how the project works.          |
-| Session 2 | Reviewed the issue in more detail and planned how I would approach the changes. I also identified the documentation and files that are likely connected to the issue. |
-| Session 3 | My next step is to fork the repository, create a new branch, begin making the changes, and test everything before committing my work.                                 |
+The student should record actual work in the journal, including issue links, branch names, commits, review feedback, roadblocks, solutions, and next steps. Do not record planned work as completed work.

@@ -1,0 +1,20 @@
+{
+  "name": "studytrack-tms",
+  "version": "1.0.0",
+  "description": "A student-focused Task Management System demonstrating MVC, OOP, design patterns, testing, logging, and CI/CD.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "check": "node --check server.js && node --check src/controllers/taskController.js && node --check public/js/app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
