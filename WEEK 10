@@ -1,0 +1,45 @@
+# Selected Repository
+
+For my external community contribution, I decided to use the **freeCodeCamp** GitHub repository because it's a well-known open-source project that helps people learn programming.
+
+**Repository:** https://github.com/freeCodeCamp/freeCodeCamp
+
+**Selected Issue:** #49492 – *Show warning to users when they try to source the wrong files*
+
+**Issue Link:** https://github.com/freeCodeCamp/freeCodeCamp/issues/49492
+
+## Repository Research
+
+Before choosing my issue, I spent some time looking through the repository to understand how contributions work. I read the README, the CONTRIBUTING guide, and the Code of Conduct. These documents explained how contributors should fork the repository, create their own branches, write clear commit messages, and follow the project's coding standards.
+
+One thing I noticed is that freeCodeCamp has a really active community. There are a lot of issues marked as **"help wanted,"** which makes it easier for new contributors to find something they can work on. I also learned that maintainers usually review the first good-quality pull request that solves an issue instead of assigning work to specific people.
+
+## Why I Chose This Issue
+
+The issue I picked is about showing a better warning message when someone accidentally uses the wrong file name, like `style.css` instead of `styles.css`. It's a small change, but it could save beginners a lot of time because they'll understand the problem much faster instead of wondering why their code isn't working.
+
+I chose this issue because it seemed like a good first contribution to an open-source project. It's related to HTML and CSS, which I've been learning in this course, and it focuses on improving the experience for other learners instead of making a huge change to the project.
+
+## Contribution Plan
+
+If I continue with this contribution, my plan is to:
+
+* Fork the freeCodeCamp repository to my GitHub account.
+* Clone my fork to my computer.
+* Create a new branch instead of working directly on the `main` branch.
+* Find the files related to Issue #49492.
+* Make the required changes.
+* Test everything to make sure it works properly.
+* Commit my changes with clear commit messages.
+* Push the branch to my GitHub repository.
+* Create a pull request for the maintainers to review.
+
+## What I Learned
+
+Going through the contribution guides helped me realize that contributing to an open-source project isn't just about writing code. There are a lot of steps involved, like following the project's rules, using Git correctly, testing your changes, and writing commit messages that clearly explain what you changed. These steps help keep large projects organized when many different people are contributing.
+
+## Weekly Reflection
+
+The hardest part of this week was understanding how the open-source contribution process works. At first, it felt like there were a lot of different documents and rules to read before I could even think about making changes.
+
+After spending some time reading the README, CONTRIBUTING guide, Code of Conduct, and the issue discussion, everything started to make more sense. Breaking the process into smaller steps made it much less overwhelming, and I now have a much better understanding of how developers collaborate on large open-source projects.
