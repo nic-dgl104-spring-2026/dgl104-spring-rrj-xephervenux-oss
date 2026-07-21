@@ -1,0 +1,190 @@
+# Research & Reflection Journal
+
+## Activity 1: Research on Design Patterns
+
+### Design Pattern 1: Singleton Pattern
+
+**Purpose:**
+The Singleton pattern makes sure that only one instance of a class exists while allowing the rest of the program to access it. This is useful when you only need one shared object.
+
+**Real-World Application:**
+A good example is a database connection manager. Instead of creating multiple connections, the application uses one shared manager to handle all database requests.
+
+**Example:**
+A logging service can use the Singleton pattern so that every part of the program writes to the same log file instead of creating multiple loggers.
+
+**Summary:**
+I learned that the Singleton pattern helps save resources and keeps everything consistent by making sure there is only one instance of an important object.
+
+---
+
+### Design Pattern 2: Factory Method Pattern
+
+**Purpose:**
+The Factory Method pattern creates objects without the rest of the program needing to know exactly how they are created. A factory handles the object creation behind the scenes.
+
+**Real-World Application:**
+An online store could use this pattern to create different payment options like Credit Card, PayPal, or Apple Pay depending on what the customer chooses.
+
+**Example:**
+A notification system could create an Email, SMS, or Push Notification object based on the user's preferred notification method.
+
+**Summary:**
+This pattern makes programs easier to expand because new object types can be added without changing a lot of existing code.
+
+---
+
+### Design Pattern 3: Observer Pattern
+
+**Purpose:**
+The Observer pattern lets multiple objects automatically receive updates whenever something changes.
+
+**Real-World Application:**
+Weather apps are a great example because users receive updated forecasts whenever new weather information becomes available.
+
+**Example:**
+When a YouTube creator uploads a new video, subscribers are automatically notified.
+
+**Summary:**
+The Observer pattern is useful whenever information needs to be shared with many users or parts of a program at the same time.
+
+---
+
+### Design Pattern 4: Strategy Pattern
+
+**Purpose:**
+The Strategy pattern allows a program to choose between different ways of completing the same task without changing the rest of the code.
+
+**Real-World Application:**
+GPS apps use different routing options, such as the fastest route, the shortest route, or avoiding toll roads.
+
+**Example:**
+An online shopping site lets customers pay using different methods like Credit Card, PayPal, or Apple Pay, with each option following its own strategy.
+
+**Summary:**
+I like this pattern because it makes programs more flexible and easier to update when new options need to be added.
+
+### Reflection
+
+Learning about these design patterns helped me understand why experienced developers don't solve every problem from scratch. Instead, they use proven solutions that make their code cleaner, easier to maintain, and easier to build on later. I found the Factory Method and Strategy patterns the most interesting because I can see myself using them in future JavaScript projects.
+
+---
+
+# Activity 2: Application Development Coding Project
+
+I read through the Application Development Coding Project description and the grading rubric on Brightspace. Doing this gave me a better understanding of what the project expects, how it will be graded, and what I need to include. Reading everything early also helped me start thinking about how I want to organize my work and manage my time.
+
+---
+
+# Activity 3: Research & Reflection Guide
+
+I also read the Research & Reflection Journal Guide on GitHub. One thing that stood out to me was that the journal is supposed to show what I learned in my own words instead of simply copying information. The guide encourages students to explain what they learned, why it matters, and how it connects to future assignments or projects.
+
+---
+
+# Activity 4: How to Contribute to Open Source
+
+### Summary
+
+The GitHub Open Source Guide showed me that contributing to open source involves much more than writing code. People can help by improving documentation, reporting bugs, testing software, writing tutorials, answering questions, reviewing pull requests, and even translating content.
+
+The guide also explained how to tell whether a project is beginner-friendly by checking things like recent activity, contribution guidelines, active maintainers, and community involvement. It also introduced websites like Good First Issue, Up For Grabs, and CodeTriage that help beginners find projects looking for contributors.
+
+### Reflection
+
+Before reading this guide, I thought open source was mainly for experienced programmers. I was surprised to learn there are many ways beginners can contribute without writing complicated code. I think starting with documentation or beginner-friendly issues would be a good way to gain experience and become more confident.
+
+---
+
+# Activity 5: Potential Open Source Projects
+
+## Project 1
+
+**Repository:** https://github.com/expressjs/express
+
+### Summary
+
+Express.js is one of the most popular web frameworks for Node.js. It makes it easier for developers to build websites and APIs by providing simple tools for handling requests and routing.
+
+### Checklist Observations
+
+* Active maintainers
+* Recent commits
+* Contribution guide available
+* Issue tracker available
+* Beginner-friendly issues
+
+### Reflection
+
+Express.js looks like a well-maintained project with a large community. I think contributing to documentation or small beginner issues would be a great way to improve my JavaScript skills.
+
+---
+
+## Project 2
+
+**Repository:** https://github.com/freeCodeCamp/freeCodeCamp
+
+### Summary
+
+FreeCodeCamp is a free learning platform that teaches programming through lessons and coding projects. It also welcomes community contributions.
+
+### Checklist Observations
+
+* Active development
+* Detailed documentation
+* Friendly community
+* Contribution guide
+* Good First Issues available
+
+### Reflection
+
+I like that FreeCodeCamp supports beginners and provides clear instructions for contributors. Updating lessons or improving documentation seems like a realistic first contribution for someone new to open source.
+
+---
+
+## Project 3
+
+**Repository:** https://github.com/mdn/content
+
+### Summary
+
+The MDN Content repository contains the documentation used by Mozilla Developer Network for web technologies like HTML, CSS, and JavaScript.
+
+### Checklist Observations
+
+* Excellent documentation
+* Active contributors
+* Clear contribution process
+* Recent updates
+* Beginner-friendly documentation issues
+
+### Reflection
+
+I found it interesting that many contributions to MDN involve improving documentation instead of writing code. This makes it a great project for beginners who want to get involved while continuing to learn.
+
+---
+
+# Activity 6: Community Connections
+
+I explored the communities connected to Express.js, FreeCodeCamp, and MDN Web Docs. All three projects provide ways for contributors to ask questions, discuss ideas, and work together through GitHub Discussions, documentation, or community forums. FreeCodeCamp also has an active Discord server where beginners can get help. It was interesting to see how much teamwork and communication are involved in open-source development.
+
+---
+
+# Follow-Up Reflection
+
+After completing this research, I still think JavaScript is the best choice for my Community Code project. It has a huge community, excellent learning resources, and many beginner-friendly projects. Since JavaScript is used for both frontend and backend development, learning it will be valuable for future courses and career opportunities.
+
+## Development Plan
+
+* **Week 1:** Review the project requirements and make a plan.
+* **Week 2:** Design the application and create the project repository.
+* **Week 3:** Build the main features of the application.
+* **Week 4:** Add more functionality and improve the user interface.
+* **Week 5:** Test the application, fix bugs, and improve the documentation.
+* **Week 6:** Complete final testing, review the rubric, and submit the finished project.
+
+## Overall Reflection
+
+This week's activities gave me a much better understanding of software design and open-source development. I learned that writing code is only one part of building software. Design patterns help developers solve common problems more efficiently, while open-source communities rely on teamwork, communication, and many different kinds of contributions. Looking at real projects also made contributing to open source feel much less intimidating. I hope to start with small contributions and continue building my skills as I gain more experience.
+
+
