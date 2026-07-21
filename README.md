@@ -126,4 +126,4 @@ The application can be deployed to a Node-compatible host. Add `JWT_SECRET` as a
 
 ## Author
 
-Replace this section with your name, student number if required, and GitHub profile.
+Michael H
