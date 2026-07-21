@@ -127,3 +127,57 @@ The application can be deployed to a Node-compatible host. Add `JWT_SECRET` as a
 ## Author
 
 Michael H
+
+## Resourses
+
+-MDN Web Docs – Object-Oriented Programming
+Explains classes, objects, inheritance, and encapsulation, including how they apply to JavaScript.
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object-oriented_programming
+
+MDN – Classes in JavaScript
+Useful for explaining how JavaScript uses classes and supports object-oriented code.
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Classes_in_JavaScript
+
+MDN – Using Classes
+Explains that JavaScript classes are built on prototype-based inheritance.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_classes
+
+MDN – Inheritance and the Prototype Chain
+Good for discussing inheritance and how JavaScript differs from languages such as Java.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain
+
+Wikipedia – JavaScript
+Useful for answering whether JavaScript is multi-paradigm. It describes JavaScript as supporting object-oriented, functional, imperative, and event-driven styles.
+https://en.wikipedia.org/wiki/JavaScript
+
+Wikipedia – Comparison of Multi-Paradigm Programming Languages
+This directly connects to your instructor’s suggestion about researching multi-paradigm languages.
+https://en.wikipedia.org/wiki/Comparison_of_multi-paradigm_programming_languages
+
+Refactoring Guru – Design Patterns
+Explains why design patterns are used and how they solve common software-design problems.
+https://refactoring.guru/design-patterns
+
+Refactoring Guru – Singleton Pattern
+Useful for explaining your single shared database manager.
+https://refactoring.guru/design-patterns/singleton
+
+Refactoring Guru – Observer Pattern
+Useful for explaining notifications when tasks are created or updated.
+https://refactoring.guru/design-patterns/observer
+
+Refactoring Guru – Factory Method
+Useful for explaining how your program creates different user roles.
+https://refactoring.guru/design-patterns/factory-method
+
+Refactoring Guru – Decorator Pattern
+Useful if you discuss adding reminders, tags, or other features to tasks.
+https://refactoring.guru/design-patterns/decorator
+
+GitHub Docs – GitHub Actions
+Useful for discussing CI/CD and automated testing.
+https://docs.github.com/actions
+
+GitHub Docs – Building and Testing Node.js
+A stronger, more specific source for explaining how your workflow runs Node.js tests automatically.
+https://docs.github.com/actions/guides/building-and-testing-nodejs
